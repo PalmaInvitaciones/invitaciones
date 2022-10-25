@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/favicon.png">
+		<link rel="shortcut icon" href="img/logo.jpg">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>15 Juli</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700%7CCabin:400%7CDancing+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+		<link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/boots.css"> 
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+   		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    </head>
+	<body>
+		<!-- Header -->
+		<header id="header">
+		</header>
+		<!-- /Header -->
+
+		<!-- Home -->
+		<div class="conteiner">
+		<div id="home" class="banner-area">
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay " style="background-image:url(./img/portada.jpg)"></div>
+			<!-- /Backgound Image -->
+			<div class="home-wrapper">
+				<div class="col-md-10 col-md-offset-1 text-center">
+					<div class="home-content">
+						<h1 class="white-text">15 Juli !!</h1>
+						<h4 class="white-text-s"><u> Falta: </u></h4>
+						<!--Contador -->
+							<div id="contenedor">			
+							<!--cambiar texto-->
+							<div id="textosuperior">
+							</div>
+							<div id="countbox"></div>
+							</div>
+						
+						<button class="main-button" onclick="ScrollTo('about')">Ver información</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</div>
+
+		<!-- /Home -->
+		
+
+		<!-- About -->
+		<div id="about" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="section-header text-center">
+						<h2 class="title">Mis 15</h2>
+					</div>
+					<div class="col-md-6 text-justify">
+						<h4 class="lead">Los mejores momentos de la vida merecen ser compartidos!</h4>
+					</div>
+					<div class="col-md-6 text-justify padding-text">
+						<p>Te espero el sábado 14 de diciembre para festejar con nosotros</p>
+					</div>
+				</div>
+					<!-- /about content -->
+					<div class="row">
+						<div class="col-md-6 padd">
+						<div class="text-center">
+						<div class="section-header">
+							<i class="fas fa-laugh-wink fies"></i>
+							<h2 class="title">Fiesta</h2>
+						</div>
+						<div class="contact-content">
+							<h3 class="titles">Día:</h3><p>14 de diciembre</p>
+							<h3 class="titles">Direccion:</h3><p>Av. Luro 10820</p>
+							<h3 class="titles">Horario:</h3><p> 20:30hs</p>
+							<p>Este camino juntos recien comienza, vamos a darle la vuelta al mundo</p>
+							<a target="_blank" class="btn btn-danger btn-color" href="https://www.google.com.ar/maps/place/PERPI%C3%91AN+EVENTOS/@-37.9569202,-57.6311676,17z/data=!4m13!1m7!3m6!1s0x9584d813176844df:0x22a28dccb0eec878!2sAv.+Pedro+Luro+10820,+Mar+del+Plata,+Buenos+Aires!3b1!8m2!3d-37.9569202!4d-57.6289789!3m4!1s0x9584d81304c849cb:0xe4d9f1690a0f1ef2!8m2!3d-37.9567122!4d-57.6293964" role="button">Ver mapa</a>
+						</div>
+						</div>
+						</div>	
+						<div class=" col-md-6 ss text-center" data-aos="fade-up">
+						<img class="img-responsive" src="img/fiesta.jpg" >
+						</div>
+						<!-- Fiesta -->
+					</div>
+			</div>
+			<!-- /container -->
+		</div>
+
+		<div class="section-header text-center">
+		<i class="fas fa-user-tie dress"></i>
+		<h2 class="titles">Dress code:</h2>
+		<p class="marg">Elegante</p>
+		</div>
+
+
+
+		<!-- Galeria de fotos -->
+		<div class="section-header text-center" id="section-fotos">
+			<h2 class="title">Galeria de fotos</h2>
+		</div>
+		<ul class="galeria">
+			<li><a href="#img1"><img src="img/galeria.jpg"></a></li>
+			<li><a href="#img2"><img src="img/galeria1.jpg"></a></li>
+			<li><a href="#img3"><img src="img/galeria2.jpg"></a></li>
+		</ul>
+		<div class="modal" id="img1">
+			<a class="cerrar text-rigth" href="#section-fotos"><i class="fas fa-times"></i></a>
+			<h3>Galeria</h3>
+			<div class="imagen">
+				<a href="#img3">&#60;</a>
+				<a href="#img2"><img src="img/galeria.jpg"></a>
+				<a href="#img2">></a>
+			</div>
+		</div>
+		<div class="modal" id="img2">
+			<a class="cerrar text-rigth" href="#section-fotos"><i class="fas fa-times"></i></a>
+			<h3>Galeria</h3>
+			<div class="imagen">
+				<a href="#img1">&#60;</a>
+				<a href="#img3"><img src="img/galeria1.jpg"></a>
+				<a href="#img3">></a>
+			</div>
+		</div>
+		<div class="modal" id="img3">
+			<a class="cerrar text-rigth" href="#section-fotos" ><i class="fas fa-times"></i></a>
+			<h3>Galeria</h3>
+			<div class="imagen">
+				<a href="#img2">&#60;</a>
+				<a href="#img1"><img src="img/galeria2.jpg"></a>
+				<a href="#img1">></a>
+			</div>
+		</div>
+		
+		<!-- /About -->
+		<div class="container">
+			<hr class="divider">
+		</div>
+		
+		<br>
+
+		<!-- Hashtag -->
+
+		<div class="section-header text-center">
+			<h2 class="title">Encontranos con nuestro Hashtag</h2>
+		</div>
+
+		<div class="conteiner">
+			<div id="contenedor">			
+			<!--cambiar texto-->
+			<div id="countbox-x"><p><i class="fab fa-instagram"></i>  #15Juli</p></div>
+		</div>
+		</div>
+		<br>
+		<!-- Gracias -->
+		<div class="gracias">
+			<div data-aos="fade-up">
+				<img src="img/gracias.jpg">
+			</div>
+		</div>
+			
+		
+		<br>
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="text-center">
+				<img src="img/footer.jpg">
+				<p>Copyright &copy; 2019 -<a class="copyfoot" href="../index.html">Palma invitaciones</a></p>
+			</div>
+		</footer>
+		<!-- /Footer -->
+
+		<!-- Contador -->
+		<script >
+			año=2019;
+			mes=12;
+			dia=14;
+			hora=11;
+			minuto=45;
+			segundo=0;			
+
+			dateFuture = new Date(año, mes-1 , dia, hora, minuto, segundo);		
+			window.onload=function(){GetCount();}
+		
+		</script>
+		<script>
+		function GetCount(){
+		
+		        dateNow = new Date();                                             
+		        amount = dateFuture.getTime() - dateNow.getTime();                
+		        delete dateNow;
+		
+		        if(amount < 0){
+						document.getElementById('countbox').innerHTML="¡LLego el dia!";
+		        }
+		        else{
+		                days=0;hours=0;mins=0;secs=0;out="";
+		
+		                amount = Math.floor(amount/1000);
+		
+		                days=Math.floor(amount/86400);
+		                amount=amount%86400;
+		
+		                hours=Math.floor(amount/3600);
+		                amount=amount%3600;
+		
+		                mins=Math.floor(amount/60);
+		                amount=amount%60;
+		
+		                secs=Math.floor(amount);
+		
+		                if(days != 0){out += days +" dia"+((days!=1)?"s":"")+", ";}
+		                if(days != 0 || hours != 0){out += hours +" hora"+((hours!=1)?"s":"")+", ";}
+		                if(days != 0 || hours != 0 || mins != 0){out += mins +" minuto"+((mins!=1)?"s":"")+", ";}
+		                out += secs +" segundos";
+		                document.getElementById('countbox').innerHTML=out;
+		
+		                setTimeout("GetCount()", 1000);
+		        }
+		}
+	</script>
+	<!-- Contador -->
+
+	<!-- Framework img -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init(
+		    {
+		    duration: 3000,
+		    });
+	</script>
+  	<!-- Framework img -->
+
+  	<!--Scroll -->
+  	<script >
+	  	function ScrollTo(name) {
+	  //init thread
+	  ScrollToResolver(document.getElementById(name));
+	}
+
+	function ScrollToResolver(elem) {
+	  var jump = parseInt(elem.getBoundingClientRect().top * .2);
+	  document.body.scrollTop += jump;
+	  document.documentElement.scrollTop += jump;
+	  //lastjump detects anchor unreachable, also manual scrolling to cancel animation if scroll > jump
+	  if (!elem.lastjump || elem.lastjump > Math.abs(jump)) {
+	    elem.lastjump = Math.abs(jump);
+	    setTimeout(function() {
+	      ScrollToResolver(elem);
+	    }, "40");
+	  } else {
+	    elem.lastjump = null;
+	  }
+	}
+  	</script>
+	</body>
+
+</html>

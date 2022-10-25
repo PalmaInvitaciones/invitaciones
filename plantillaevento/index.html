@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/favicon.png">
+		<link rel="shortcut icon" href="img/logo.jpg">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Mi evento</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700%7CCabin:400%7CDancing+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<link href="css/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/boots.css"> 
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+   		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    </head>
+	<body>
+		<!-- Header -->
+		<header id="header">
+		</header>
+		<!-- /Header -->
+
+		<!-- Home -->
+		<div class="conteiner">
+		<div id="home" class="banner-area">
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay " style="background-image:url(./img/portada.jpg)"></div>
+			<!-- /Backgound Image -->
+			<div class="home-wrapper">
+				<div class="col-md-10 col-md-offset-1 text-center">
+					<div class="home-content">
+						<h1 class="white-text">#Evento festeja 1 año!</h1>
+						<button class="main-button" onclick="ScrollTo('textosuperior')">Seguir leyendo</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</div>
+
+		<!-- /Home -->
+		<div class="conteiner">
+			<div id="contenedor">			
+			<!--cambiar texto-->
+			<div id="textosuperior">
+				<div class="section-header text-center">
+						<h2 class="title">Nuestro 1 año llega en...</h2>
+					</div>
+			</div>
+			<div id="countbox"></div>
+		</div>
+		</div>
+
+		<!-- About -->
+		<div id="about" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="section-header text-center">
+						<h2 class="title">#Evento</h2>
+					</div>
+					<div class="col-md-6 text-center">
+						<h4 class="lead">Los mejores momentos de la vida merecen ser compartidos!</h4>
+					</div>
+					<div class="col-md-6 text-justify padding-text">
+						<p>Todo crece, asi como nosotros crecemos con ustedes día a día y queremos festejarlo de la mejor manera</p>
+					</div>
+				</div>
+					<!-- /about content -->
+					<div class="row">
+						<!-- Iglesia-->
+						<div class="col-md-6 padd">
+							<div class="text-center">
+						<div class="section-header">
+							<h2 class="title">Reunion</h2>
+						</div>
+						<div class="contact-content">
+							<h3 class="titles">Día:</h3><p>30 de Octubre</p>
+							<h3 class="titles">Dirección:</h3><p>Chubut 1660</p>
+							<h3 class="titles">Horario:</h3><p> 20:30hs.</p>
+							<p>Nos destacamos por siempre estar pendientes de nuestros clientes, hoy es un día para compartirlo con amigos y la gente que mas queremos.</p>	
+							<a target="_blank" class="btn btn-danger btn-color" href="https://www.google.com.ar/maps/place/Parroquia+Cristo+Rey/@-37.961464,-57.5478191,19z/data=!4m13!1m7!3m6!1s0x9584dbd0abde355b:0x36fdb8c0b301a4d8!2sChubut+1660,+B7600ARG+Mar+del+Plata,+Buenos+Aires!3b1!8m2!3d-37.961464!4d-57.5472719!3m4!1s0x9584dbd0ab89bad9:0x5773854aab67c87e!8m2!3d-37.9612949!4d-57.5469312" role="button">Ver mapa</a>
+						</div>
+						</div>
+						</div>
+						<div class="col-md-6 ss text-center" data-aos="flip-right">
+						<img class="img-responsive " src="img/evento.jpg">
+						</div>
+					</div>	
+			</div>
+			<!-- /container -->
+		</div>
+
+		
+		<!-- /About -->
+		<div class="container">
+			<hr class="divider">
+		</div>
+		
+		<br>
+
+		<!-- Hashtag -->
+
+		<div class="section-header text-center">
+			<h2 class="title">Encontranos con nuestro Hashtag</h2>
+		</div>
+
+		<div class="conteiner">
+			<div id="contenedor">			
+			<!--cambiar texto-->
+			<div id="countbox"><p><i class="fab fa-instagram"></i>  #MiEvento</p></div>
+		</div>
+		</div>
+
+		<!-- Gracias -->
+		<div class="gracias">
+			<div data-aos="flip-left">
+				<img src="img/gracias.jpg">
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="text-center">
+				<img src="img/footer.jpg">
+				<p>Copyright &copy; 2019 -<a class="copyfoot" href="../index.html">Palma invitaciones</a></p>
+			</div>
+		</footer>
+		<!-- /Footer -->
+
+		<!-- Contador -->
+		<script >
+			año=2019;
+			mes=10;
+			dia=30;
+			hora=20;
+			minuto=30;
+			segundo=0;			
+
+			dateFuture = new Date(año, mes-1 , dia, hora, minuto, segundo);		
+			window.onload=function(){GetCount();}
+		
+		</script>
+		<script>
+		function GetCount(){
+		
+		        dateNow = new Date();                                             
+		        amount = dateFuture.getTime() - dateNow.getTime();                
+		        delete dateNow;
+		
+		        if(amount < 0){
+						document.getElementById('countbox').innerHTML="¡LLego el dia!";
+		        }
+		        else{
+		                days=0;hours=0;mins=0;secs=0;out="";
+		
+		                amount = Math.floor(amount/1000);
+		
+		                days=Math.floor(amount/86400);
+		                amount=amount%86400;
+		
+		                hours=Math.floor(amount/3600);
+		                amount=amount%3600;
+		
+		                mins=Math.floor(amount/60);
+		                amount=amount%60;
+		
+		                secs=Math.floor(amount);
+		
+		                if(days != 0){out += days +" dia"+((days!=1)?"s":"")+", ";}
+		                if(days != 0 || hours != 0){out += hours +" hora"+((hours!=1)?"s":"")+", ";}
+		                if(days != 0 || hours != 0 || mins != 0){out += mins +" minuto"+((mins!=1)?"s":"")+", ";}
+		                out += secs +" segundos";
+		                document.getElementById('countbox').innerHTML=out;
+		
+		                setTimeout("GetCount()", 1000);
+		        }
+		}
+	</script>
+	<!-- Contador -->
+
+	<!-- Framework img -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init(
+		    {
+		    duration: 3000,
+		    });
+	</script>
+  	<!-- Framework img -->
+
+  	<!--Scroll -->
+  	<script >
+	  	function ScrollTo(name) {
+	  //init thread
+	  ScrollToResolver(document.getElementById(name));
+	}
+
+	function ScrollToResolver(elem) {
+	  var jump = parseInt(elem.getBoundingClientRect().top * .2);
+	  document.body.scrollTop += jump;
+	  document.documentElement.scrollTop += jump;
+	  //lastjump detects anchor unreachable, also manual scrolling to cancel animation if scroll > jump
+	  if (!elem.lastjump || elem.lastjump > Math.abs(jump)) {
+	    elem.lastjump = Math.abs(jump);
+	    setTimeout(function() {
+	      ScrollToResolver(elem);
+	    }, "40");
+	  } else {
+	    elem.lastjump = null;
+	  }
+	}
+  	</script>
+	</body>
+
+</html>

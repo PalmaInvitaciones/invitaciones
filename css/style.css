@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #383d41;
+}
+
+
+.navabar-nav li{
+	padding-right: 20px;
+}
+.nav-link {
+	font-size: 1.1em !important;
+}
+.carousel-inner img{
+
+	max-width: 2400px;
+	max-height: 700px;
+}
+.carousel-caption{
+	position: absolute;
+	top: 60%;
+	transform: translateY(-40%);
+}
+.carousel-caption h1{
+	font-size: 300%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+	font-size: 150%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+.jumbotron{
+	padding: 1rem;
+	border-radius: 0;
+}
+.padding {
+	padding-bottom: 2rem;
+}
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+.fa-address-card{
+	color: #8AB4DD;
+}
+.fa-laptop{
+	color: #ABA9A1;
+}
+.fa-hourglass-start{
+	color: #DDCB8A;
+}
+.fa-map-marker-alt{
+	color: #EE5050;
+}
+.fa-address-card , .fa-laptop , .fa-hourglass-start , .fa-map-marker-alt{
+	font-size: 3em;
+	margin: 1rem;
+}
+
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-instagram{
+	color: #D67442;
+}
+.fa-facebook:hover ,
+.fa-instagram:hover{
+	color: #d5d5d5;
+}
+.lead{
+	padding-top: 25px;
+}
+.btn-padding{
+	margin-top: 25px;
+}
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+
+.text-center div p { width: 60%; text-align: center; display: block; position: relative; overflow: hidden; margin: 0 auto; }
+  		.card-img-top {width: 100%; height: auto; margin-bottom: 10px; }
+.contact{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-color: #FFFFFF;
+}
+@media (max-width: 1440px){
+		.navbar{
+			padding-left: 200px ;
+			padding-right: 200px;
+	}
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+	.navbar{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+  }
+@media (max-width: 768px) {
+				body { overflow-x: hidden; }
+			.navbar {padding-left: 25px; padding-right: 25px; display: block; position: fixed; overflow: hidden; width: 100%; z-index: 9; }
+			.carousel { margin-top:65px; }
+			.welcome { width:100%; padding: 0 20px; }
+			.welcome ul, .container-fluid { padding:0 20px; }
+			.container-fluid { padding:0; margin:0; }
+			.col-lg-6 { margin:0 20px; width:100%; }
+			.col-lg-6 ul { margin:0; padding:0 20px; }
+			figure { display:none; }
+			.card-img-top img { margin-bottom:20px; }
+			.card ul { margin:0; padding:0 20px; }
+			textarea.form-control { height:150px; }
+			.text-justify { text-align:left !important; }
+			.collapse2 ul {display: none; }
+			.collapse2.show ul { display: block;}
+
+.navbar{
+	padding-left: 25px;
+		padding-right: 25px;}	
+  .carousel-caption{
+	top: 45%;
+}
+.carousel-caption h1{
+	font-size: 200%;
+
+}
+.carousel-caption h3{
+	font-size: 110%;
+	font-weight: 400;
+	padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+	font-size: 95%;
+	padding: 8px 14px;
+}
+.display-4{
+	font-size: 200%;
+}
+
+}
+
+@media (max-width: 576px) {
+	.carousel-caption .btn{
+	display: none;
+			body { overflow-x: hidden; }
+			.navbar {padding-left: 25px; padding-right: 25px; display: block; position: fixed; overflow: hidden; width: 100%; z-index: 9; }
+			.carousel { margin-top:65px; }
+			.welcome { width:100%; padding: 0 20px; }
+			.welcome ul, .container-fluid { padding:0 20px; }
+			.container-fluid { padding:0; margin:0; }
+			.col-lg-6 { margin:0 20px; width:100%; }
+			.col-lg-6 ul { margin:0; padding:0 20px; }
+			figure { display:none; }
+			.card-img-top img { margin-bottom:20px; }
+			.card ul { margin:0; padding:0 20px; }
+			textarea.form-control { height:150px; }
+			.text-justify { text-align:left !important; }
+			.collapse2 ul {display: none; }
+			.collapse2.show ul { display: block;}
+}	
+.display-4{
+	font-size: 160%;
+}
+.carousel-indicators {
+    position: none;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+}
+@media (max-width: 499px){
+	.carousel-caption .btn{
+	display: none;
+}
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
